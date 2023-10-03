@@ -1,5 +1,4 @@
 import webpack from "webpack"
-import path from "path"
 import HTMLWebpackPlugin from "html-webpack-plugin"
 import {BuildOptions} from "./types/config"
 
