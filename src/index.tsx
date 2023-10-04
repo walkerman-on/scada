@@ -1,7 +1,7 @@
 import {render} from "react-dom"
-import "./components/Counter.scss"
+import App from "./App"
 
 render (
-    <div style ={{color: "red"}}>Helsxssxlo!</div>,
+    <App/>,
     document.getElementById("root")
 )
