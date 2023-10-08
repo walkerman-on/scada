@@ -7,6 +7,7 @@ import { TestPageAsync } from "./pages/TestPage/TestPage.async";
 import { ObjectPageAsync } from "./pages/ObjectPage/ObjectPage.async";
 import { Theme, ThemeContext } from "./context/ThemeContext";
 import { useTheme } from "./hooks/useTheme";
+import { classNames } from "./helpers/classNames/classNames";
 
 
 
@@ -14,7 +15,7 @@ const App = () => {
     const {theme, changeTheme} = useTheme()
 
     return (
-        <div className={`app ${theme}`}>
+        <div className={classNames("app", {}, [theme])}>
             <Link to = {"/object"}>Объект</Link>
             <Link to = {"/infographics"} >Инфоргарфика</Link>
             <Link to = {"/test"} >Тестирование</Link>
