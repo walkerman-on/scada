@@ -3,7 +3,7 @@ import React from 'react';
 const ObjectPage = () => {
     return (
         <div>
-            ObjectPage
+            <p style = {{fontWeight: "700"}}>Технологическая схема объекта</p>
         </div>
     );
 };

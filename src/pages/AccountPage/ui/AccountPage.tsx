@@ -3,7 +3,7 @@ import React from 'react';
 const AccountPage = () => {
     return (
         <div>
-            ЛК
+            <p style = {{fontWeight: "700"}}>Личный кабинет диспетчера</p>
         </div>
     );
 };

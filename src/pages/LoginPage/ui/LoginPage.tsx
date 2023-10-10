@@ -3,7 +3,7 @@ import React from 'react';
 const LoginPage = () => {
     return (
         <div>
-            LoginPage
+            <p style = {{fontWeight: "700"}}>Страница авторизации</p>
         </div>
     );
 };
